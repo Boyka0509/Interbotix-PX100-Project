@@ -1,0 +1,27 @@
+Grublers formula is used to find the DOF's of any mechanicsm and not just the robotds.
+Grublers formula states that the number of DOF's is equal to the sum of the freedoms of the bodies minus the number of independent constraints put on the motion od those bodies
+
+DOF = sigma(freedoms of bodies) - number if independent constraints
+
+If N is the number of bodies or links (including the ground)
+N = number of bodies including the ground
+J = the number of joints
+
+m = 6 for spatial bodies
+m = 3 for planar bodies
+
+Then we can write the DOF's are equal to rigid body freedoms minus joint constraints
+We deduct 1 from N because we want to exclude the ground:
+
+  DOF = m(N-1) - segma(ci)
+
+We know that the DOF movement of one link wrt another can be found by deducting the number of constraints that the joint puts on the movement from the DOFs of a rigid body
+
+    fi = m - ci
+
+Reqriting the formula in terms of the DOF's of the joints we can get the formula:
+
+        dof = m(N-1-J) + sigma fi
+
+NOTE : For the Grublers formula to work. the constraints must be independent
+

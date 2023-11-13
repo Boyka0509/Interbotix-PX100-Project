@@ -1,0 +1,24 @@
+1. Revolute joints - 
+   - like a door hinge with one DOF
+   - The positive direction about the axis can be found using the right habd thumb rule 
+
+2. Linear Joint / Sliding Robots:
+   - provided linear motion between two rigid bodies
+   - one DOF
+
+3. Universal Joints:
+    - two revolute joint axes orthogonal to each other
+    - it can provide two rotational DOF's around roll(x) and pitch(y)
+
+4. Spherical Joints:
+    - ball and socket
+    - 3 DOFS
+
+5. Cylindrical Joints: 
+    - a joint tha can provide independent translational and rotation about a single fixed joint axis
+    - it has 2DOf's
+
+6. Helical Joints:
+    - a screw joint that provides a simultaneous rotation and translation about a screw axis 
+    - 1 DOF
+
